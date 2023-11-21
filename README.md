@@ -87,14 +87,14 @@ Para crear una animacion en android estudio es necesario crear la animacion dent
     ```
 
 ### Parte de java
-    ```java
-    Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.animacion);
-    miAnimacion.setRepeatMode(Animation.RESTART);
-    // Hara que se repita un numero de veces
-    miAnimacion.setRepeatCount(20);  
-    // Hara que se repita hasta el infiinito
-    miAnimacion.setRepeatCount(Animation.INFINITE); 
-    ```
+```java
+Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.animacion);
+miAnimacion.setRepeatMode(Animation.RESTART);
+// Hara que se repita un numero de veces
+miAnimacion.setRepeatCount(20);  
+// Hara que se repita hasta el infiinito
+miAnimacion.setRepeatCount(Animation.INFINITE); 
+```
 
 # ArrayAdapter
 
@@ -211,17 +211,17 @@ Los gradientes se crean haciendo un archivo xml en la carpeta drawable en este a
 
 ## Ejemplo 
 
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape = "rectangle">
-        <gradient
-            android:startColor="@color/purpureDark"
-            android:centerColor="@color/purpure"
-            android:endColor="@color/purpureLight"
-            android:type="linear"
-            android:angle="45" />
-    </shape>
-    ```
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape = "rectangle">
+    <gradient
+        android:startColor="@color/purpureDark"
+        android:centerColor="@color/purpure"
+        android:endColor="@color/purpureLight"
+        android:type="linear"
+        android:angle="45" />
+</shape>
+```
 
 # Creadores
 
